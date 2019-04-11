@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GAME - vacina</title>
+    <link rel="shortcut icon" type="image/png" href="./images/healthIcon.png" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">  
+</head>
+
+<body>
+    <div class="container">
+        <div class="coluna-20">
+            <h1>VACINA GAME</h1>
+            <h3>Tome suas vacinas!!!</h3>
+            <br/>
+            <img class=vacin src="images/medicine.png" srcset="image MEDICINE">
+            <br/>
+            <h3>E fuja das doenças...</h3>
+            <br/>
+            <img class=virus src="images/virus.png" width="80px" srcset="image DISEASES">
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <hr></hr>        
+            <div class="assign">
+                <strong>"by KAREN OTA in Ironhack."</strong>
+            </div>
+        </div>
+        <div class="coluna-60">
+            <canvas id="canvas" width="800px" height="500px"></canvas>
+            <div class="btns">
+                <figure>
+                    <img src="./images/btn.left.png" onclick ="left();"width="50px" height="50px">
+                </figure>
+                <div class="controls">
+                    <button class='MP3' onclick="play()"><img src="./images/Cloud-Music-icon.png" srcset="MUSIC icon" width="60px"></button>    
+                </div>
+                <figure>
+                    <img src="./images/btn.rigth.png" onclick ="right();"width="50px" height="50px">
+                </figure>
+            </div>
+        </div>
+        <div class="coluna-20">
+            <p>VACINAS</p>
+            <p id="count"></p>
+        </div>
+    </div>
+
+    <section id="THE-END">
+        <img class='important' src='./images/important.png' alt="logo-IMPORTANT"></img>
+        <div>
+            <h1>Este jogo não tem Game Over,</br> a VACINA ainda pode PREVENIR!</br>  PREVINA-SE A TEMPO!</h1>
+            <button onclick="restartGame()" class="BTNrestart" type="button">RESTART</button>
+            <p class="MSG-gameover">Entre os dez maiores desafios de saúde para 2019, a <strong>Organização Mundial da Saúde (OMS)</strong></br>incluiu o <strong>movimento antivacina.</strong><br/>COLABORE!!!</p>
+            <img class='OMS' src="./images/OMS.png" alt="logo-OMS">
+        </div>
+    </section>
+    <script type="text/javascript" src="./scripts/virus.js"></script>
+    <script type="text/javascript" src="./scripts/baby.js"></script>
+    <script type="text/javascript" src="./scripts/background.js"></script>
+</body>
+</html>
