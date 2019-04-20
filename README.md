@@ -1,0 +1,1 @@
+TRY THIS GAME!!! Collect the vaccines, run away from the viruses, collect the most amout of points to be the champion! The anti-vaccination movement will be a big challenge for the year of 2019, according to a report the WHO - World Health Organization (OMS). Do your part, contribute to global safety. 
