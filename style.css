@@ -1,0 +1,99 @@
+body{
+    margin : 0, 0, 0, 0;
+}
+.container{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 178, 148);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.coluna-20, .vacin,.virus{
+    width:18%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.vacin,.virus{
+    width:40%;
+}
+.coluna-60{
+    padding-top: 15px;
+    width:60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    min-height: 380px;
+}
+canvas{
+    border: solid 2px black;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1, p{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
+h3{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 15px;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.MP3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 100%;
+}
+.assign{
+    font-family: 'Amatic SC', cursive;
+    font-size: 18px;
+    text-align: end;
+}
+#THE-END{
+    border: 5px solid rgba(255, 0, 0, 0.781);
+    text-align: center;
+    display: none;
+}
+#THE-END>h1{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+}
+.MSG-gameover{
+    font-family: 'Permanent Marker', cursive;
+    color:rgba(255, 0, 0, 0.781);
+    font-size: 15px;
+}
+.BTNrestart{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    align-items: center;
+    border-radius: 30%;
+    background-color:#F05A6B;
+}
+.important, .OMS{
+    align-items: center;
+}
+.OMS{
+    width: 320px;
+    padding-bottom: 30px;
+}
+
+
+
